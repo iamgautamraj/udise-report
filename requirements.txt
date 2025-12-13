@@ -1,0 +1,14 @@
+pyspark==3.5.0
+apache-sedona==1.5.1
+shapely>=2.0.2
+geopandas
+pandas
+numpy
+duckdb
+streamlit
+boto3
+s3fs
+pyarrow
+plotly
+matplotlib
+scikit-learn
