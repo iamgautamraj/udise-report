@@ -11,6 +11,7 @@ Using a dataset of 1.37 million schools, this pipeline processes raw dirty data 
 ## 🏗️ Architecture & Tech Stack
 
 The project follows a Bronze --> Silver --> Gold Medallion Architecture.
+
     graph TD
         A[Raw Data (CSV)] -->|Ingestion| B(Bronze Layer)
         B -->|Sanitation & Type Casting| C{Silver Layer}
