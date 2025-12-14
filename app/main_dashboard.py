@@ -14,7 +14,8 @@ st.set_page_config(
 # 2. LOAD DATA
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/final/fragility_index.csv", dtype={'school_id': str})
+    df = pd.read_parquet("data/final/fragility_index.parquet")
+    df['school_id'] = df['school_id'].astype(str)
     return df
 
 try:

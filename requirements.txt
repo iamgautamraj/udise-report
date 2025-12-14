@@ -12,3 +12,4 @@ pyarrow
 plotly
 matplotlib
 scikit-learn
+pyarrow
